@@ -5,6 +5,9 @@
     <classes>
       <class name="com.mphasis.testcases.LoginPageTest">
         <methods>
+          <include name="validateLoginTest"/>
+          <include name="setUp"/>
+          <include name="closeSetUp"/>
           <include name="validateTitleTest"/>
         </methods>
       </class> <!-- com.mphasis.testcases.LoginPageTest -->
